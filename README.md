@@ -4,16 +4,9 @@ Backend em Python (FastAPI) para uma plataforma de gestão de projetos inspirada
 
 ## Stack
 - FastAPI
-- SQLModel + SQLite
+- SQLModel + SQLite (default)
 - JWT (python-jose)
 - Passlib (bcrypt)
-
-## Banco de dados (SQLite)
-A aplicação usa **SQLite** por padrão no arquivo:
-- `./data/work_management.db`
-
-A URL padrão fica em `app/core/config.py`:
-- `sqlite:///./data/work_management.db`
 
 ## Como rodar
 ```bash
